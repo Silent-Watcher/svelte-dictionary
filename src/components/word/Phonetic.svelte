@@ -7,9 +7,9 @@
 
 
 <section class="w-full sm:w-1/2 lg:w-1/3 sm:mx-auto first:mt-10 mt-5 flex items-center content-around">
-    <p class="dark:text-white">{phoneticText}</p>
-    <img class="cursor-pointer ml-auto" on:click={playAudio} src="{speaker}" alt="speaker">
+    <p class="dark:text-white">{phoneticText ?? 'not available'}</p>
+		<button class="ml-auto cursor-pointer" type="button" on:click={playAudio}>
+			<img src="{speaker}" alt="speaker">
+		</button>
     <audio src="{audioSrc}"></audio>
 </section>
-
-<style></style>
