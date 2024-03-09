@@ -3,6 +3,7 @@
      import { GithubSolid } from 'flowbite-svelte-icons';
      import Header from './components/Header.svelte';
      import Word from './components/Word.svelte';
+     import Link from './ui/Link.svelte';
      let word : any;
      let isWordLoaded : boolean = false;
      function fetchWord(e:CustomEvent){
@@ -21,6 +22,9 @@
           <DarkMode class="btn" size="lg"/>
 </section>
 <Header on:form_submitted={fetchWord}/>
+
+<Link linkDesc="Data provided by" linkHref="https://dictionaryapi.dev/" linkText="dictionaryapi.dev"/>
+
 
 {#if isWordLoaded}
      <Word bind:word/>
