@@ -7,7 +7,6 @@
 	$: antonymsList = antonyms.join(' - ');
 </script>
 
-
 <section class="dark:text-white border-solid border-2 dark:border-gray-700 border-gray-300">
 	<h3 class="bg-gray-100 text-zinc-900 dark:bg-gray-700 dark:text-white text-center p-3 text-xl border-dashed border-b-2 border-primary-400">{partOfSpeech}</h3>
 	<ul class="p-3">
