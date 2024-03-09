@@ -2,6 +2,7 @@
 *.css  linguist-detectable=false
 *.pcss  linguist-detectable=false
 *.js   linguist-detectable=false
+*.cjs   linguist-detectable=false
 
 
 
