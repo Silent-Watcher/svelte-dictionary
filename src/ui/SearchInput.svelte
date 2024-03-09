@@ -9,16 +9,16 @@
     async function fetchWordInfo(){
       if(!isValidInput(value)) {
         return dispatcher('form_submitted',{error:'word input is empty !'})
-      } 
+      }
       const response = await fetch(`${API_URL}/${value}`);
       const [wordInfo] = await response.json();
       return dispatcher('form_submitted', wordInfo)
     }
 </script>
-  
+
   <form class="flex gap-2" on:submit|preventDefault={fetchWordInfo}>
     <Search size="lg" bind:value/>
-    <Button class="!p-2.5" type="submit"> 
+    <Button class="!p-2.5" type="submit">
       <SearchOutline class="w-5 h-5" />
     </Button>
   </form>

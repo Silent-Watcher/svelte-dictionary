@@ -5,7 +5,7 @@
     console.log('word: ', word);
     $: phonetics = word.phonetics.filter((phonetic: { text:string, audio: string })  => phonetic.audio.length > 0)
     $: console.log('phonetics: ', phonetics);
-    
+
 </script>
 
 

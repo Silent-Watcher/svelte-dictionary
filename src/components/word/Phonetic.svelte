@@ -1,11 +1,8 @@
 <script lang="ts">
     import speaker from '../../assets/speaker.svg';
-    async function playAudio(e:any){
-        let audio = document.querySelector('audio') as HTMLAudioElement
-        await audio.play();
-    }
-    export let phoneticText:string;
-    export let audioSrc:string;
+    import { playAudio } from '../../helpers/audio.helper';
+    export let phoneticText : string;
+    export let audioSrc : string;
 </script>
 
 

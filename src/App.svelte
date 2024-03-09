@@ -6,7 +6,6 @@
      let word : any;
      let isWordLoaded : boolean = false;
      function fetchWord(e:CustomEvent){
-          console.log(e.detail);
           if('error' in e.detail){
                isWordLoaded = false
                return alert('input field is empty');
@@ -14,7 +13,6 @@
           word = e.detail
           isWordLoaded = true
      }
-     console.log(word);
 </script>
 
 <h1 class="text-center dark:text-white text-7xl my-10">Dictionary</h1>
@@ -27,9 +25,5 @@
 {#if isWordLoaded}
      <Word bind:word/>
 {/if}
-
-
-
-
 
 <style></style>

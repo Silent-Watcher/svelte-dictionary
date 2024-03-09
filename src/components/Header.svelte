@@ -1,8 +1,8 @@
 <script>
 
   import SearchInput from "../ui/SearchInput.svelte";
-  
-  
+
+
 </script>
 
 <header class="w-full my-5">
