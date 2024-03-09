@@ -1,0 +1,7 @@
+*.html linguist-detectable=false
+*.scss linguist-detectable=false
+*.js   linguist-detectable=false
+
+
+# Auto detect text files and perform LF normalization
+* text=auto
