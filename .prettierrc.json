@@ -7,6 +7,10 @@
 		"prettier-plugin-tailwindcss",
 		"@ianvs/prettier-plugin-sort-imports"
 	],
+	"svelteBracketNewLine": true,
+	"svelteIndentScriptAndStyle": true,
+	"svelteSortOrder": "options-styles-scripts-markup",
+	"svelteStrictMode": false,
 	"importOrder": [
 		"^@core/(.*)$",
 		"",

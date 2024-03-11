@@ -1,4 +1,4 @@
-export async function playAudio(e: any): Promise<void> {
-	let audio = document.querySelector("audio") as HTMLAudioElement;
+export async function playAudio(): Promise<void> {
+	const audio = document.querySelector("audio") as HTMLAudioElement;
 	await audio.play();
 }

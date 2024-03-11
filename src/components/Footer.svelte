@@ -1,7 +1,5 @@
 <script lang="ts">
 	import Link from '../ui/Link.svelte';
-
-	let year = new Date().getFullYear();
 </script>
 
 <footer>

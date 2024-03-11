@@ -3,7 +3,8 @@
 	import Phonetic from './word/Phonetic.svelte';
 
 	export let word: any;
-	console.log('word: ', word);
+	let title: string = (word.title as string) ?? '';
+	let phonetic: string = (word.phonetic as string) ?? '';
 	$: phonetics = word.phonetics.filter(
 		(phonetic: { text: string; audio: string }) => phonetic.audio.length > 0
 	);
@@ -12,8 +13,8 @@
 
 <main class="mt-4">
 	<h1 class="text-center text-2xl dark:text-white md:text-3xl lg:text-6xl">
-		{word.word}
-		<span class="text-2xl text-zinc-500">{word.phonetic ?? ''}</span>
+		{title}
+		<span class="text-2xl text-zinc-500">{phonetic}</span>
 	</h1>
 	<section class="row text-center">
 		{#each phonetics as phonetic}

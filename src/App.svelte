@@ -42,5 +42,3 @@
 {/if}
 
 <Footer />
-
-<style></style>

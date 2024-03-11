@@ -6,7 +6,7 @@
 	import { isValidInput } from '../helpers/input.helper';
 
 	const dispatcher = createEventDispatcher();
-	const API_URL = import.meta.env.VITE_BASE_URL;
+	const API_URL: string = import.meta.env.VITE_BASE_URL;
 	let value: string | undefined;
 	async function fetchWordInfo() {
 		if (!isValidInput(value)) {
