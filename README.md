@@ -30,6 +30,8 @@ This is a dictionary web application that allows users to search for word defini
 
 ## Demo 
 
+> You can try out the project by following this [demo link.](https://dictionary-ten-rosy.vercel.app/)
+
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Silent-Watcher/svelte-dictionary)
 
 ## Prerequisites
