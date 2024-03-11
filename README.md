@@ -8,6 +8,18 @@ This is a dictionary web application that allows users to search for word defini
 > [!IMPORTANT]\
 > The application is built using **[svelte](https://svelte.dev)** & **[Typescript](https://www.typescriptlang.org)** , and utilizes the Vite bundler and pnpm as the package manager. The application is hosted on **[Vercel](https://vercel.com)**.
 
+## Table of Contents
+
+-   [Features](https://github.com/Silent-Watcher/svelte-dictionary#features)
+-   [demo](https://github.com/Silent-Watcher/svelte-dictionary#demo)
+-   [Prerequisites](https://github.com/Silent-Watcher/svelte-dictionary#Prerequisites)
+-   [Installation](https://github.com/Silent-Watcher/svelte-dictionary#Installation)
+-   [usage](https://github.com/Silent-Watcher/svelte-dictionary#usage)
+-   [Contributing](https://github.com/Silent-Watcher/svelte-dictionary#Contributing)
+-   [Contact](https://github.com/Silent-Watcher/svelte-dictionary#Contact)
+-   [License](https://github.com/Silent-Watcher/svelte-dictionary#License)
+-   [License](https://github.com/Silent-Watcher/svelte-dictionary#Sponsor)
+
 ## Features
 
 -   User-friendly interface for searching word definitions.
