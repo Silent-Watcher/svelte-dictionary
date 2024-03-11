@@ -17,14 +17,16 @@
      }
 </script>
 
-<h1 class="text-center dark:text-white text-7xl my-10">Dictionary</h1>
-<section class="row flex content-center items-center text-center" >
-          <a href="https://github.com/Silent-Watcher/svelte-dictionary" target="_blank" class="btn"><GithubSolid size='lg'/></a>
-          <DarkMode class="btn" size="lg"/>
-</section>
+
 <Header on:form_submitted={fetchWord}/>
 
 <Link linkDesc="Data provided by" linkHref="https://dictionaryapi.dev/" linkText="dictionaryapi.dev"/>
+<section class="row flex content-center items-center text-center mt-2 mx-auto" >
+	<div class="mx-auto flex content-center items-center">
+		<a href="https://github.com/Silent-Watcher/svelte-dictionary" target="_blank" class="btn"><GithubSolid size='lg'/></a>
+		<DarkMode class="btn" size="lg"/>
+	</div>
+</section>
 
 {#if isWordLoaded}
      <Word bind:word/>
