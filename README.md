@@ -56,12 +56,19 @@ To start the application, run `npm run dev -- --open`. This will start the appli
   npm run dev -- --open
 ```
 
+## Contributing  <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="60">
+
+Contributions to this project are welcome. 
+If you encounter any issues or have suggestions for improvement, please open an issue on the GitHub repository.
+
+Before contributing, please review the contribution guidelines.
+
 ## Contact
 
 For additional information or inquiries, you can reach out to the project maintainer:
 
 - Name: Ali nazari
-- Email: backendwithali@mail.com
+- Email: backendwithali@gmail.com
 
 Feel free to contact the maintainer for any questions or feedback regarding the project.
 
