@@ -56,8 +56,20 @@ To start the application, run `npm run dev -- --open`. This will start the appli
   npm run dev -- --open
 ```
 
-## License
+## Contact
+
+For additional information or inquiries, you can reach out to the project maintainer:
+
+- Name: Ali nazari
+- Email: backendwithali@mail.com
+
+Feel free to contact the maintainer for any questions or feedback regarding the project.
+
+## License 🔐
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. You are free to modify, distribute, and use the code for personal and commercial purposes. See the LICENSE file for details.
+
+## Sponsor ❤
+If you like this project, please give it a star ⭐ and/or consider buying me a coffee(s). Every donation is appreciated.
