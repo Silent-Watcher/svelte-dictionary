@@ -2,7 +2,9 @@
 	import { Button, Search } from 'flowbite-svelte';
 	import { SearchOutline } from 'flowbite-svelte-icons';
 	import { createEventDispatcher } from 'svelte';
+
 	import { isValidInput } from '../helpers/input.helper';
+
 	const dispatcher = createEventDispatcher();
 	const API_URL = import.meta.env.VITE_BASE_URL;
 	let value: string | undefined;
@@ -19,6 +21,6 @@
 <form class="flex gap-2" on:submit|preventDefault={fetchWordInfo}>
 	<Search size="lg" bind:value />
 	<Button class="!p-2.5" type="submit">
-		<SearchOutline class="w-5 h-5" />
+		<SearchOutline class="h-5 w-5" />
 	</Button>
 </form>

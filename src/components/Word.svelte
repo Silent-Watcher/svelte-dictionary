@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Meaning from './word/Meaning.svelte';
 	import Phonetic from './word/Phonetic.svelte';
+
 	export let word: any;
 	console.log('word: ', word);
 	$: phonetics = word.phonetics.filter(
@@ -10,16 +11,16 @@
 </script>
 
 <main class="mt-4">
-	<h1 class="dark:text-white text-2xl md:text-3xl lg:text-6xl text-center">
+	<h1 class="text-center text-2xl dark:text-white md:text-3xl lg:text-6xl">
 		{word.word}
-		<span class="text-zinc-500 text-2xl">{word.phonetic ?? ''}</span>
+		<span class="text-2xl text-zinc-500">{word.phonetic ?? ''}</span>
 	</h1>
 	<section class="row text-center">
 		{#each phonetics as phonetic}
 			<Phonetic audioSrc={phonetic.audio} phoneticText={phonetic.text} />
 		{/each}
 	</section>
-	<div class="grid grid-cols-1 md:grid-cols-2 xl:w-1/2 xl:mx-auto gap-4 mt-10">
+	<div class="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 xl:mx-auto xl:w-1/2">
 		{#each meanings as meaning}
 			<Meaning
 				definitions={meaning.definitions}

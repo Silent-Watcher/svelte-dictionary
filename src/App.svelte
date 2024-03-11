@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { DarkMode } from 'flowbite-svelte';
 	import { GithubSolid } from 'flowbite-svelte-icons';
+
+	import Footer from './components/Footer.svelte';
 	import Header from './components/Header.svelte';
 	import Word from './components/Word.svelte';
 	import Link from './ui/Link.svelte';
-	import Footer from './components/Footer.svelte';
+
 	let word: any;
 	let isWordLoaded: boolean = false;
 	function fetchWord(e: CustomEvent) {
@@ -24,7 +26,7 @@
 	linkHref="https://dictionaryapi.dev/"
 	linkText="dictionaryapi.dev"
 />
-<section class="row flex content-center items-center text-center mt-2 mx-auto">
+<section class="row mx-auto mt-2 flex content-center items-center text-center">
 	<div class="mx-auto flex content-center items-center">
 		<a
 			href="https://github.com/Silent-Watcher/svelte-dictionary"

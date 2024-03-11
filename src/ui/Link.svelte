@@ -4,16 +4,16 @@
 	export let linkHref: string;
 </script>
 
-<p class="text-gray-500 dark:text-gray-400 text-center">
+<p class="text-center text-gray-500 dark:text-gray-400">
 	{linkDesc}
 	<a
 		target="_blank"
 		href={linkHref}
-		class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
+		class="inline-flex items-center font-medium text-primary-600 hover:underline dark:text-primary-500"
 	>
 		{linkText}
 		<svg
-			class="w-4 h-4 ms-2 rtl:rotate-180"
+			class="ms-2 h-4 w-4 rtl:rotate-180"
 			aria-hidden="true"
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
