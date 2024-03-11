@@ -1,5 +1,5 @@
 # Svelte Dictionary
-This is a dictionary web application that allows users to search for word definitions.
+This is a dictionary web application that allows users to search for word definitions. 🧙🏻‍♂️
 
 <!-- banner start -->
 ![svelte dictionary project](https://github.com/Silent-Watcher/svelte-dictionary/blob/master/.github/svelte-dictionary-banner.png)
