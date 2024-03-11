@@ -8,7 +8,7 @@ This is a dictionary web application that allows users to search for word defini
 > [!IMPORTANT]\
 > The application is built using **[svelte](https://svelte.dev)** & **[Typescript](https://www.typescriptlang.org)** , and utilizes the Vite bundler and pnpm as the package manager. The application is hosted on **[Vercel](https://vercel.com)**.
 
-[![Star this project](https://img.shields.io/badge/-⭐%20Star%20this%20project-yellow?style=for-the-badge)](https://github.com/Silent-Watcher/svelte-dictionary)
+[![Star this project](https://img.shields.io/badge/-%E2%AD%90%20Star%20this%20project-F1E2AC?style=for-the-badge)](https://github.com/Silent-Watcher/svelte-dictionary)
 
 ## Table of Contents
 
