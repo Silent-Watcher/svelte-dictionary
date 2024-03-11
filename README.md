@@ -73,9 +73,10 @@ To start the application, run `npm run dev -- --open`. This will start the appli
 ```
 ## Technologies
 ![svelte](https://ziadoua.github.io/m3-Markdown-Badges/badges/Svelte/svelte2.svg)
-![svelte](https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript2.svg)
-![svelte](https://ziadoua.github.io/m3-Markdown-Badges/badges/TailwindCSS/tailwindcss2.svg)
-![svelte](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel2.svg)
+![typescript](https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript2.svg)
+![tailwindcss](https://ziadoua.github.io/m3-Markdown-Badges/badges/TailwindCSS/tailwindcss2.svg)
+![vite](https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs2.svg)
+![vercel](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel2.svg)
 
 ## Contributing  <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="60">
 
