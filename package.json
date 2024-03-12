@@ -3,6 +3,11 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"packageManager": "pnpm",
+	"engines": {
+		"node": "v20.11.0"
+	},
+	"engineStrict": true,
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
